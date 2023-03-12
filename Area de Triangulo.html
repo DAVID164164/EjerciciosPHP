@@ -1,0 +1,25 @@
+<html>
+<body>
+<form method ="post" action=""><br>
+Ingrese la base del triangulo:<br>
+<input type="text" name= "base"><br>
+Ingrese la altura del triangulo:<br>
+<input type="text" name= "altura"><br>
+
+<input type="submit" value="Calcular"><br>
+</form> 
+</body>
+
+<?php
+$base =$_POST["base"];
+$altura=$_POST["altura"];
+$area=$_POST["area"];
+$suma= $base+$altura;
+$area=$suma/$2;
+
+echo "La base del Triangulo es:".$area;
+
+?>
+
+
+</html>

@@ -1,0 +1,65 @@
+<html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="navbar.css">
+    <title>navbar</title>
+</head>
+<body>
+    <nav>
+        <button class="nav-boton">Menu</button>
+        <a href="#" class="nav-enlace">Inicio</a>
+        <a href="#" class="nav-enlace">Nosotros</a>
+        <a href="#"class="nav-enlace">Servicios</a>
+        <a href="#"class="nav-enlace">Salida</a>
+    </nav>
+	
+	.nav-enlace{
+    display: inline-block;
+    background: navy;
+    color: greenyellow;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+background: blue;
+color: aqua;
+}
+nav{
+    padding: 10px;
+    background: mediumseagreen;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-boton{
+    background: red;
+    color: azure;
+    padding: 5px 5px;
+    border: 5px solid white;
+    display: none;
+}
+@media(max-width:600px) {
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 5px 1px;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+}
+	
+	
+	
+</body>
+
+
+
+</html>
+
